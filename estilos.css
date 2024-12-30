@@ -1,0 +1,202 @@
+
+.navbar {
+    background-color: #070707;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #efa7ed;
+}
+
+/* Estilo para la sección "Sobre mí" */
+#about {
+    padding: 20px;
+    background-color: #efa7ed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 20px;
+    text-align: left;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    object-fit: cover;
+    border: 5px solid black;
+}
+
+.about-info {
+    max-width: 500px;
+}
+
+.about-info h1 {
+    font-size: 32px;
+    color: #070707;
+}
+
+.about-info p {
+    font-size: 18px;
+    color: #070202;
+    line-height: 1.5;
+}
+
+.thanks {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#cursos {
+    background-color: #f9c5f8; /* Color de fondo similar a otras secciones */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar el contenido */
+    margin-top: 5px; /* Espaciado con la sección anterior */
+    border-radius: 1px; /* Bordes redondeados */
+}
+
+#cursos h2 {
+    font-size: 24px; /* Tamaño del título */
+    color: #070707; /* Color del texto */
+    margin-bottom: 3px; /* Espaciado debajo del título */
+}
+
+#cursos ul {
+    list-style-type: disc; /* Viñetas para los ítems */
+    padding-left: 20px; /* Alineación de las viñetas */
+    text-align: left; /* Alineación de los ítems */
+    display: inline-block; /* Centrar la lista */
+}
+
+#cursos li {
+    font-size: 18px; /* Tamaño del texto */
+    color: #070202; /* Color del texto */
+    margin-bottom: 8px; /* Espaciado entre ítems */
+}
+
+
+
+#contact {
+    background-color: #4e334a;
+    padding: 3px;
+    text-align: center;
+    margin-top: 1px;
+    border-radius: 1px;
+}
+
+#contact h2 {
+    font-size: 50px;
+    color: #f8f4f6;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+#contact h3 {
+    font-size: 18px; /* Tamaño más pequeño que el título principal */
+    color: #f8f4f6; /* Color similar al del título principal */
+    margin: 10px 0; /* Espaciado hacia arriba y abajo */
+    font-weight: normal; /* Opcional: Cambia el grosor de la letra */
+    text-align: center; /* Centrar el texto */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 15px;
+    color: #f5f2f2;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 3px;
+    font-size: 18px;
+    border: 2px solid #fa24a8;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #070707;
+    color: white;
+    border: rgb(243, 145, 223);
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f3a9de;
+}
+
+#redes {
+    background-color: #0a0a0a;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 1px;
+    border-radius: 1px;
+}
+
+#redes h2 {
+    font-size: 20px;
+    margin-top: 4px;
+    color: #f8f4f6;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a img {
+    width: 30px; /* Tamaño del ícono */
+    height: 30px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el mouse */
+    filter: brightness(1.2); /* Hace que el ícono se vea más brillante */
+
+}
+
+
+
